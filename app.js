@@ -15,7 +15,7 @@ var toss = 1;
 
 const runs = ["W", 1, 2, 3, 4, 5, 6, 0]
 
-resetbutton.onclick = ()=>{
+resetbutton.onclick = () => {
     window.location.reload();
 }
 
@@ -41,7 +41,7 @@ function gameover(){
 
 
 
-battingbutton.onclick = () =>{
+battingbutton.onclick = () => {
     const randomNum = runs[Math.floor(Math.random()*8)]
     
     if(toss === 2){
